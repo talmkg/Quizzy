@@ -5,4 +5,4 @@
   <img src="https://i.pinimg.com/originals/8f/87/fe/8f87fefbaa14d9c9612860d15aace7c9.gif"/>
 </p>
   
-[![pages-build-deployment](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment)
+<center>[![pages-build-deployment](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment)</center>
