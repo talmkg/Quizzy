@@ -1,6 +1,5 @@
 body {
   color: #fff;
-  /*font-size: 5rem;*/
 }
 .choice-container {
   display: flex;
@@ -46,14 +45,14 @@ body {
   background-color: transparent;
   width: 20rem;
   height: 3rem;
-  border: 0.2rem solid greenyellow;
+  border: 0.2rem solid rgb(109, 194, 114);
   margin-top: 2rem;
   border-radius: 50px;
   overflow: hidden;
 }
 #progressBarFull {
   height: 100%;
-  background: greenyellow;
+  background: rgb(109, 194, 114);
   width: 0%;
 }
 @media screen and (max-width: 768px) {
