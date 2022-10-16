@@ -16,7 +16,7 @@ let questions = [
     choice2: "Scripting Language",
     choice3: "Markup Language",
     choice4: "Programming Language",
-    answer: 1,
+    answer: 3,
   },
   {
     question: "what is 2+2?",
@@ -52,7 +52,7 @@ startGame = () => {
   getNewQuestion();
 };
 getNewQuestion = () => {
-  if ((availableQuestions, length === 0 || questionsCounter > MAX_QUESTIONS)) {
+  if ((availableQuestions, length === 0 || questionCounter > MAX_QUESTIONS)) {
     localStorage.setItem("mostRecentScore", score);
     return window.location.assign("/end.html");
   }
@@ -96,3 +96,10 @@ choices.forEach((choice) => {
     }, 1000);
   });
 });
+
+incrementScore = (num) => {
+  score += num;
+  scoreText.innerText = score;
+};
+
+startGame();
