@@ -1,7 +1,7 @@
 
 # A Quiz Game 🍇
 <h4>Demo: <a href="https://talmkg.github.io/Quizzy/">Click me:)</a><h4>
-<h5>Known issues:</h5> <li>Leaderboard system is not working</li>
+<h5>Known issues:</h5><li>Leaderboard system is not working</li>
 
 [![pages-build-deployment](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/talmkg/Quizzy/actions/workflows/pages/pages-build-deployment)
 
