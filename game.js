@@ -19,28 +19,29 @@ let questions = [
     answer: 3,
   },
   {
-    question: "what is 2+2?",
-    choice1: "2",
-    choice2: "4",
-    choice3: "23",
-    choice4: "20",
+    question: "What does CPU stand for?",
+    choice1: "Central Process Unit",
+    choice2: "Central Processing Unit",
+    choice3: "Computer Personal Unit",
+    choice4: "Central Processor Unit",
     answer: 2,
   },
   {
-    question: "what is 2+2?",
-    choice1: "2",
-    choice2: "4",
-    choice3: "23",
-    choice4: "20",
+    question:
+      "What is the most preferred image format used for logos in the Wikimedia database?",
+    choice1: ".png",
+    choice2: ".jpeg",
+    choice3: ".svg",
+    choice4: ".gif",
     answer: 3,
   },
   {
-    question: "what is 2+2?",
-    choice1: "2",
-    choice2: "4",
-    choice3: "23",
-    choice4: "20",
-    answer: 4,
+    question: "In web design, what does CSS stand for?",
+    choice1: "Counter Strike: Source",
+    choice2: "Cascading Style Sheet",
+    choice3: "Corrective Style Sheet",
+    choice4: "Computer Style Sheet",
+    answer: 2,
   },
 ];
 const SCORE_POINTS = 100;
@@ -52,9 +53,9 @@ startGame = () => {
   getNewQuestion();
 };
 getNewQuestion = () => {
-  if ((availableQuestions, length === 0 || questionCounter > MAX_QUESTIONS)) {
+  if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
     localStorage.setItem("mostRecentScore", score);
-    return window.location.assign("/end.html");
+    return window.location.assign("./end.html");
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
